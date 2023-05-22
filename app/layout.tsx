@@ -1,19 +1,22 @@
 import "../global.css";
 import { Metadata } from "next";
 import { Analytics } from "./components/analytics";
+import {Inter} from "next/font/google";
+import LocalFont from "next/font/local";
+import React from "react";
 
 export const metadata: Metadata = {
 	title: {
-		default: "chronark.com",
-		template: "%s | chronark.com",
+		default: "jlourenco.com",
+		template: "%s | jlourenco.com",
 	},
-	description: "Software engineer at upstash.com and founder of planetfall.io",
+	description: "Software engineer at Cleverti",
 	openGraph: {
-		title: "chronark.com",
+		title: "jlourenco.com",
 		description:
-			"Software engineer at upstash.com and founder of planetfall.io",
-		url: "https://chronark.com",
-		siteName: "chronark.com",
+			"Software engineer at Cleverti",
+		url: "https://jlourenco.com",
+		siteName: "jlourenco.com",
 		images: [
 			{
 				url: "https://chronark.com/og.png",
@@ -36,7 +39,7 @@ export const metadata: Metadata = {
 		},
 	},
 	twitter: {
-		title: "Chronark",
+		title: "João Lourenco Portfolio",
 		card: "summary_large_image",
 	},
 	icons: {
