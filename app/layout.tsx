@@ -10,15 +10,14 @@ export const metadata: Metadata = {
     default: "João Lourenço Portfolio",
     template: "%s | jlourenco.com",
   },
-  description: "Software engineer at Cleverti",
+  description: "I'm João Victor R. Lourenco, a Software Engineer with 4+ years of full-stack experience. I excel in developing robust solutions across the stack, with a strong engineering background and proficiency in multiple programming languages. Let's push the boundaries of technology together.",
   openGraph: {
-    title: "jlourenco.com",
-    description: "Software engineer at Cleverti",
-    url: "https://jlourenco.com",
-    siteName: "jlourenco.com",
+    title: "Joao Lourenco Portifolio",
+    url: "https://jlourenco.vercel.app",
+    siteName: "jlourenco.dev",
     images: [
       {
-        url: "https://chronark.com/og.png",
+        url: "https://jlourenco.vercel.app/og.png",
         width: 1920,
         height: 1080,
       },
@@ -42,7 +41,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
   },
   icons: {
-    shortcut: "/favicon.png",
+    shortcut: "/favicon.ico",
   },
 };
 const inter = Inter({
